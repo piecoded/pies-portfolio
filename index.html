@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachana's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">👾Rachana V</div>
+            <div class="hamburger">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>     </ul>            
+        </nav>
+    </header>   
+
+    <section id="home" class="hero"><div>
+        <div class="hero-content">
+        <h2 id="hey-there">Hey, there!</h2>
+        <h1 id="name">I'm Rachana</h1>         <br>        
+        <h2 id="subtext">From pixels to programs, I love building things that look good and work even better! 🎨</h2>
+        </div>
+
+        <div class="contact-cta">
+            <a href="#contact" class="cta-button">
+              GET IN TOUCH
+              <span class="arrow">&rarr;</span>
+            </a>
+            <div class="social-icons">
+              <a href="https://github.com/piecoded" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://wa.me/YOUR_PHONE" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+          <div class="profile-picture"> <img src="pfp3.jpeg" alt="Rachana's Profile Picture">        </div>        
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2 class="heading">ABOUT ME</h2>
+            <div class="about-text">                
+                <!-- <p>Hey there! I'm Rachana, a Tech Geek with a passion for building interactive and efficient digital experiences.</p><br>
+                <p>💻 I juggle with multiple programming languages including JavaScript, Python, Java and C++ while currently aiming to master Full-Stack Development. <br><br>
+                    From pixels to programs, I love building things that look good and work even better! 🎨</p> -->
+
+                <p>I'm a developer with a creative edge and a sharp eye for detail. Whether it be writing clean code, designing thoughtful user experiences, or crrafting compelling content - I love building things that are both smart and meaningful.<br><br>
+                I believe in curiosity, clarity, and a bit of charm in everything I create.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <h2 class="heading">SKILLS</h2>
+            <div class="skills-text">
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">C</span>
+                        <span class="skill-pill">C++</span>
+                        <span class="skill-pill">HTML</span>
+                        <span class="skill-pill">CSS</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">SQL</span>
+                    </div>
+                </div>             
+                
+                <div class="skill-card">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">C/C++</span>
+                        <span class="skill-pill">Python</span>
+                    </div>
+                </div> 
+
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">C/C++</span>
+                        <span class="skill-pill">Python</span>
+                    </div>
+                </div> 
+            </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="heading">PROJECTS</h2>
+        <div class="projects-container">
+            <div class="project-card"> <h3>CPP Interactive Quiz</h3> <p>A simple CLI-based interactive quiz game I made for funsies!</p> </div>            
+            <div class="project-card"> <h3>ASTRA</h3> <p>A chatbot to answer student queries regarding their admission process</p> </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Get In Touch</h2>
+        <p class="contact-subheading">
+          Feel free to reach out if you'd like to collaborate.<br>
+          You are just a few clicks away!        </p>
+        
+        <form class="contact-form" id="contact-form" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>     
+
+    <footer>
+        <p>&copy; 2025 Rachana V. All Rights Reserved.</p>
+    </footer>
+    <!-- EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
